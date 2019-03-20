@@ -25,6 +25,13 @@ namespace w10_iot_core_test_app
         public MainPage()
         {
             this.InitializeComponent();
+            this.memoryUsage.Text += $"{(Windows.System.MemoryManager.AppMemoryUsage / 1024 / 1024).ToString()} MB";
+            
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

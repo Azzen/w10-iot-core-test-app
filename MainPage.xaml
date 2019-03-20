@@ -9,6 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="30,39,0,0" Text="Windows 10 IoT Core - Test Application" TextWrapping="Wrap" VerticalAlignment="Top" Height="36" Width="444" FontSize="25"/>
+        <TextBlock x:Name="memoryUsage"  HorizontalAlignment="Left" Margin="30,200,0,0" Text="Memory usage of this application: " TextWrapping="Wrap" VerticalAlignment="Top" Height="36" Width="900" FontSize="20"/>
+        <Image HorizontalAlignment="Left" Height="154" Margin="1683,39,0,0" VerticalAlignment="Top" Width="179" Source="Assets/raspberry.png"/>
 
     </Grid>
 </Page>
